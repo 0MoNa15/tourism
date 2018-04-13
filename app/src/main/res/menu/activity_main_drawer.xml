@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/inicio" />
+        <item
+            android:id="@+id/item_hoteles"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/hoteles" />
+        <item
+            android:id="@+id/item_sitios"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/sitios" />
+        <item
+            android:id="@+id/item_restaurantes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/restaurantes" />
+    </group>
+</menu>
